@@ -1,0 +1,7 @@
+.foo {
+    display: -webkit-flex;
+}
+.foo {
+    display: flex;
+    height: 100px;
+}

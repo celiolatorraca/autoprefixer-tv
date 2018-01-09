@@ -1,0 +1,38 @@
+{
+  "name": "autoprefixer-tv",
+  "version": "0.0.1",
+  "description": "PostCSS plugin PostCSS plugin to split prefixed properties values into multiple rules.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "autoprefixer",
+    "webos",
+    "tv"
+  ],
+  "author": "Célio Latorraca <celio.latorraca@corp.globo.com>",
+  "license": "MIT",
+  "repository": "celiolatorraca/postcss-autoprefixer-tv",
+  "bugs": {
+    "url": "https://github.com/celiolatorraca/postcss-autoprefixer-tv/issues"
+  },
+  "homepage": "https://github.com/celiolatorraca/postcss-autoprefixer-tv",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && yarn lint",
+    "lint": "eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
