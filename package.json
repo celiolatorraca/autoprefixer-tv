@@ -12,11 +12,11 @@
   ],
   "author": "Célio Latorraca <celio.latorraca@corp.globo.com>",
   "license": "MIT",
-  "repository": "celiolatorraca/postcss-autoprefixer-tv",
+  "repository": "celiolatorraca/autoprefixer-tv",
   "bugs": {
-    "url": "https://github.com/celiolatorraca/postcss-autoprefixer-tv/issues"
+    "url": "https://github.com/celiolatorraca/autoprefixer-tv/issues"
   },
-  "homepage": "https://github.com/celiolatorraca/postcss-autoprefixer-tv",
+  "homepage": "https://github.com/celiolatorraca/autoprefixer-tv",
   "dependencies": {
     "postcss": "^6.0.1"
   },
