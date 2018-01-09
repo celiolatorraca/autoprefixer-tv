@@ -53,5 +53,5 @@ postcss([ require('autoprefixer'), require('autoprefixer-tv') ])
 
 [PostCSS]: https://github.com/postcss/postcss
 [Autoprefixer]: https://github.com/postcss/autoprefixer
-[ci-img]:  https://travis-ci.org/celiolatorraca/postcss-autoprefixer-tv.svg
-[ci]:      https://travis-ci.org/celiolatorraca/postcss-autoprefixer-tv
+[ci-img]:  https://circleci.com/gh/celiolatorraca/autoprefixer-tv.svg?style=svg
+[ci]:      https://circleci.com/gh/celiolatorraca/autoprefixer-tv
