@@ -32,4 +32,11 @@ describe('autoprefixer-tv', () => {
 
         return run(input, output);
     });
+
+    it('processes correctly with multiple prefixed rules', () => {
+        const input = readFile('./tests/fixtures/multiple-prefixed-properties.css');
+        const output = readFile('./tests/expects/multiple-prefixed-properties.css');
+
+        return run(input, output);
+    });
 });

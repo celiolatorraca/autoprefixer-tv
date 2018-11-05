@@ -30,6 +30,7 @@ const extractDuplicatedProps = (rule) => {
 module.exports = postcss.plugin('autoprefixer-tv', () =>
     (css) => {
         css.walkRules((rule) => {
+            const removeDeclarations = [];
             let duplicatedProps = extractDuplicatedProps(rule);
             duplicatedProps = filterOnlyPrefixedProps(rule, duplicatedProps);
 
@@ -43,10 +44,12 @@ module.exports = postcss.plugin('autoprefixer-tv', () =>
                         postcss.decl({ prop: decl.prop, value: decl.value })
                     );
 
-                    rule.removeChild(decl);
+                    removeDeclarations.push(decl);
                     rule.parent.insertBefore(rule, newRule);
                 }
             });
+
+            removeDeclarations.forEach(r => rule.removeChild(r));
         });
     }
 );

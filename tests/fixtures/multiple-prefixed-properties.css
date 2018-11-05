@@ -1,0 +1,14 @@
+.example-with-three{
+    font-size:-webkit-calc(10vw + 10px);
+    font-size:calc(10vw + 10px);
+    line-height:-webkit-calc(20vw + 20px);
+    line-height:calc(20vw + 20px);
+    max-height:-webkit-calc(30vw + 30px);
+    max-height:calc(30vw + 30px);
+}
+.example-with-two{
+    font-size:-webkit-calc(10vw + 10px);
+    font-size:calc(10vw + 10px);
+    line-height:-webkit-calc(20vw + 20px);
+    line-height:calc(20vw + 20px);
+}
